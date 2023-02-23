@@ -1,8 +1,8 @@
 # RCB
 This is RCB project
 Team members
-Marru Chandu
-Sai Charan
-Hemalatha
-Nikitha Tirumala
+Marru Chandu, 
+Sai Charan, 
+Hemalatha, 
+Nikitha Tirumala and
 Abhishek Marubadi
