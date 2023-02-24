@@ -1,6 +1,6 @@
 # RCB
-This is RCB project
-Team members
+This is RCB project.
+Team members are
 Marru Chandu, 
 Sai Charan, 
 Hemalatha, 
