@@ -10,19 +10,19 @@
     <!-- <div class="title">
       <b>Translator</b>
     </div> -->
-    <img src="image.jpg">
+    <img src="image1.jpg">
     <span class="right-arrow">&#8594;</span>
     <span class="left-arrow">&#8592;</span>
     <div class="center">
       <h1>Login</h1>
-      <form method="post">
+      <form action="login_check.php" method="post">
         <div class="txt_field">
-          <input type="text" required>
+          <input type="text" name="email" required>
           <span></span>
-          <label>Username</label>
+          <label>Email</label>
         </div>
         <div class="txt_field">
-          <input type="password" required>
+          <input type="password" name="password" required>
           <span></span>
           <label>Password</label>
         </div>
@@ -31,6 +31,7 @@
         <div class="signup_link">
           Not a member? <a href="#">Signup</a>
         </div>
+        <input type="submit" name = "Submit">
       </form>
     </div>
 
