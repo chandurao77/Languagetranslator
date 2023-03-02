@@ -5,12 +5,21 @@
     <meta charset="utf-8">
     <title>Translator</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+        background-image: url("image1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* height: 200px
+        width: 1000px */
+      }
+    </style>
   </head>
   <body>
     <!-- <div class="title">
       <b>Translator</b>
     </div> -->
-    <img src="image1.jpg">
+    <!-- <img src="image1.jpg"> -->
     <span class="right-arrow">&#8594;</span>
     <span class="left-arrow">&#8592;</span>
     <div class="center">
