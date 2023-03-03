@@ -4,14 +4,12 @@
   <head>
     <meta charset="utf-8">
     <title>Translator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
     <style>
       body {
-        background-image: url("image1.jpg");
+        background-image: url("image5.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
-        /* height: 200px
-        width: 1000px */
       }
     </style>
   </head>
@@ -20,11 +18,11 @@
       <b>Translator</b>
     </div> -->
     <!-- <img src="image1.jpg"> -->
-    <span class="right-arrow">&#8594;</span>
-    <span class="left-arrow">&#8592;</span>
+    <!-- <span class="right-arrow">&#8594;</span>
+    <span class="left-arrow">&#8592;</span> -->
     <div class="center">
       <h1>Login</h1>
-      <form action="login_check.php" method="post">
+      <form action="Welcome.php" method="post">
         <div class="txt_field">
           <input type="text" name="email" required>
           <span></span>
