@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <style>
       body {
-        background-image: url("image4.webp");
+        background-image: url("image5.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
       }
@@ -28,12 +28,12 @@
 <body>
     <div class = "example">
         <h1>Translation Example</h1>
-        <textarea rows = "5" cols="30" placeholder="Enter text to translate" id="input-text"></textarea><br/>
+        <textarea rows = "5" cols="30" placeholder="Enter text to translate" id="input-text"></textarea><br/    >
         <select id="target-language">
             <option value="fr">French</option>
             <option value="es">Spanish</option>
-            <option value="de">Telugu</option>
-            <option value="de">Hindi</option>
+            <!-- <option value="de">Telugu</option>
+            <option value="de">Hindi</option> -->
             <option value="de">German</option>
         </select>
         <button>Translate</button>

@@ -2,45 +2,41 @@
 <!-- Coding By CodingNepal - youtube.com/codingnepal -->
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>Translator</title>
-    <link rel="stylesheet" href="style1.css">
-    <style>
-      body {
-        background-image: url("image5.jpeg");
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-    </style>
+    <meta charset="utf-8">  
+    <title>Language Translator | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   </head>
   <body>
-    <!-- <div class="title">
-      <b>Translator</b>
-    </div> -->
-    <!-- <img src="image1.jpg"> -->
-    <!-- <span class="right-arrow">&#8594;</span>
-    <span class="left-arrow">&#8592;</span> -->
-    <div class="center">
-      <h1>Login</h1>
-      <form action="Welcome.php" method="post">
-        <div class="txt_field">
-          <input type="text" name="email" required>
-          <span></span>
-          <label>Email</label>
+    <div class="container">
+      <div class="wrapper">
+        <div class="text-input">
+          <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+          <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
         </div>
-        <div class="txt_field">
-          <input type="password" name="password" required>
-          <span></span>
-          <label>Password</label>
-        </div>
-        <input type="radio" height="">Remember me</p>
-        <!-- <input type="submit" value="Login"> -->
-        <div class="signup_link">
-          Not a member? <a href="#">Signup</a>
-        </div>
-        <input type="submit" name = "Submit">
-      </form>
+        <ul class="controls">
+          <li class="row from">
+            <div class="icons">
+              <i id="from" class="fas fa-volume-up"></i>
+              <i id="from" class="fas fa-copy"></i>
+            </div>
+            <select></select>
+          </li>
+          <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+          <li class="row to">
+            <select></select>
+            <div class="icons">
+              <i id="to" class="fas fa-volume-up"></i>
+              <i id="to" class="fas fa-copy"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button>Translate Text</button>
     </div>
-
+    <script src="countries.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
