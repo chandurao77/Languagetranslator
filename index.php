@@ -8,13 +8,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font Awesome CDN Link for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script>
+      function cls() {
+        // console.log(from+" "+to);
+        // let from = document.getElementById('from').value = "";
+        let to = document.getElementById('to').vlaue = "";
+        // console.log(from+" "+to);
+      }
+    </script>
   </head>
   <body>
     <div class="container">
       <div class="wrapper">
         <div class="text-input">
-          <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
-          <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
+          <textarea spellcheck="false" class="from-text" placeholder="Enter text" id="from"></textarea>
+          <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation" id="to"></textarea>
         </div>
         <ul class="controls">
           <li class="row from">
@@ -35,6 +43,7 @@
         </ul>
       </div>
       <button>Translate Text</button>
+      <button onClick="cls()">Clear</button>
     </div>
     <script src="countries.js"></script>
     <script src="script.js"></script>
