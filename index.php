@@ -43,7 +43,7 @@
         </ul>
       </div>
       <button>Translate Text</button>
-      <button onClick="cls()">Clear</button>
+      <button onclick="location.reload()">Clear</button>
     </div>
     <script src="countries.js"></script>
     <script src="script.js"></script>

@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #34495e;
+  }
+  
+  .registration-box {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+  
+  .registration-box h2 {
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .registration-box form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background: #191919;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .user-box {
+    position: relative;
+    margin: 10px 0;
+  }
+  
+  .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  
+  .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .user-box input:focus ~ label,
+  .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03a9f4;
+  }
